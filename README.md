@@ -1,20 +1,12 @@
-# Curso GRATUITO de Laravel 11.x
-
-- :movie_camera: [Acesse o Curso](https://academy.especializati.com.br/curso/laravel-11-completo-e-gratuito).
-
-
-Links Úteis:
-
-- :tada: [Saiba Mais](https://linktr.ee/especializati)
+# Sistema de processo seletivo utilizando  Laravel 11.x
 
 ## Passo a passo para rodar o projeto
 Clone o projeto
 ```sh
-git clone https://github.com/especializati/curso-laravel-11 laravel-11
+git clone git@github.com:sanrodrigues/app-pcss.git
 ```
 ```sh
-cd laravel-11/
-```
+cd laravel-11/app-pcss
 
 
 Crie o Arquivo .env
@@ -25,7 +17,7 @@ cp .env.example .env
 
 Atualize essas variáveis de ambiente no arquivo .env
 ```dosini
-APP_NAME="Especializa Ti"
+APP_NAME="Processo Seletivo SES"
 APP_URL=http://localhost:8989
 
 DB_CONNECTION=mysql
